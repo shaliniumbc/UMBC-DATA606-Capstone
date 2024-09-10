@@ -1,7 +1,5 @@
 # Shalini Mopuri
 
-![Shalini Mopuri’s Headshot](./docs/headshot.jpg)
-
 <img src="headshot.jpg" alt="Headshot Photo" width="200"/>
 
 ## Contact Information
