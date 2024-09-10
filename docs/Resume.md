@@ -1,6 +1,6 @@
 # Shalini Mopuri
 
-![Shalini Mopuri’s Headshot](./headshot.jpg)
+![Shalini Mopuri’s Headshot](./docs/headshot.jpg)
 
 <img src="headshot.jpg" alt="Headshot Photo" width="200"/>
 
