@@ -71,12 +71,19 @@ The **Close** column will be used as the target variable for predicting stock pr
 The following columns from the dataset are selected as features/predictors to predict stock prices:
 
 -**`**VWAP (Volume Weighted Average Price)`: The average price of the stock, weighted by volume during the day.
+
 -**`Volume`**:The number of shares traded during the day.
+
 -**`Turnover`**: The total monetary value of shares traded during the day.
+
 -**`Prev Close`**: The previous day's closing price.
+
 -**`Open`**: The stock price at the opening of the trading day.
+
 -**`High`**: The highest price during the trading day.
+
 -**`Low`**: The lowest price during the trading day.
+
 -**`Last`**: The last traded price before the market closes.
 
    
