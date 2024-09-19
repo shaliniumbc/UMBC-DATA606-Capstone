@@ -1,5 +1,5 @@
 # Project Title: 
-# Future Trends: Enhancing Stock Market Predictions Using Machine Learning
+# Stock Market Predictions Using Time Series Analysis
 
 - **Author Name:** Shalini Mopuri
 - **Semester:** Fall 2024
