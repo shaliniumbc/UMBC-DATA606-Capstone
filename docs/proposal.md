@@ -12,19 +12,19 @@
 ## Background
 
 ### What is it about?
-
-The project aims to enhance stock market predictions using machine learning techniques. Stock market forecasts have always been very speculative, based on historical trends, financial news, and expert opinions. Machine learning is a powerful tool for making more accurate and efficient predictions about how stock prices will evolve. It can process large amounts of data and discover hidden trends.
+Stock market prediction using time series analysis involves using historical stock prices and other financial indicators to forecast future stock prices. Time series analysis is crucial in understanding the temporal patterns in stock prices, trends, seasonality, and volatility. Techniques like ARIMA (Auto-Regressive Integrated Moving Average), SARIMA (Seasonal ARIMA)
 
 ### Why does it matter?
 
-Accurate stock market predictions significantly benefit investors, financial experts, and hedge funds. Predictive accuracy can help with investment strategies, risk management, and general financial decision-making. Furthermore, given the dynamic and turbulent nature of stock markets, applying machine learning provides a modern method for addressing these challenges in a more data-driven approach.
+Accurately predicting stock market trends is a significant challenge in finance, offering critical insights to investors, financial analysts, and businesses. Such predictions enable informed decisions regarding buying, selling, or holding stocks, ultimately impacting portfolio returns and market strategies. Moreover, stock price volatility has broader economic implications, influencing factors like retirement savings and corporate investments. Addressing this challenge through time series analysis can enhance decision-making and contribute to financial stability
 
 
 ### Research Questions?
 
-1. Can machine learning models outperform traditional statistical methods in stock market prediction?
-2. What are the key features that most significantly impact stock price movements?
-3. How does the time horizon (short-term vs. long-term prediction) affect model accuracy?
+1. Can historical stock prices and financial data be used to accurately predict future stock market trends?
+2. Which time series analysis model performs the best in terms of accuracy for stock market prediction?
+3. Can feature selection improve the performance of predictive models in stock market analysis?
+
 
 
 ---
