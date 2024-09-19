@@ -38,4 +38,19 @@ The dataset used for this project was obtained from a Kaggle repository, which c
 - **Time Period:** The dataset covers the period from 2000 to 2021, capturing daily trading data.
 
 - **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
-
+| **Column Name**         | **Data Type**        |  **Definition**                                                                     |
+|----------------------------------------|---------------|------------------------------------------------------------------------------------|
+| `Date`                  | DateTime             |  The date on which the stock data was recorded.                                     |
+| `Symbol`                | String(Categorical)  |  The ticker symbol of the Nifty 50 stock                                            |
+| `Open`                  | Float                |  The price at which the stock opened for trading on the day                         |
+| `High`                  | Float                |  The Highest price of the stock traded at during the day                            |
+| `Low`                   | Float                |  The lowest price of the stock traded at during the day.                            |
+| `Close`                 | Float                |  The stock price at the close of the trading day.                                   |
+| `Adj Close`             | Float                |  Adjusted closing price that accounts for dividends and stock splits.               |
+| `Volume`                | Integer              |  The total number of shares traded during the day.                                  |
+| `Prev Close`            | Float                |  The closing price of the stock on the previous trading day.                        |
+| `%change`               | Float                |  The percentage change in the stock's price compared to the previous trading day.   |
+| `52w High`              | Float                |  The highest price the stock traded at in the last 52 weeks.                        |
+| `52w Low`               | Float                |  The lowest price the stock traded at in the last 52 weeks.                         |
+| `Deliverable Volume`    | Integer              |  The number of shares that were actually delivered on that day.                     |
+| `%Deliverable`          | Float                |  The percentage of the total volume that was deliverable.                           |
