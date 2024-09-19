@@ -32,11 +32,11 @@ Accurately predicting stock market trends is a significant challenge in finance,
 ## Data
 
 - **Data Sources:** 
-The dataset used for this project was obtained from Yahoo Finance. Y Finance obtains historical stock prices, which are essential for time series analysis and predicting future stock trends.
+The dataset used for this project was obtained from a Kaggle repository, Nifty50 Stock Market Data which contains daily stock price data for the Nifty 50 companies. The dataset covers a wide time span, making it ideal for analyzing stock market trends and predicting future stock prices.
+- **Link:** https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset/data
 - **Data Size:** 19MB  
 - **Data Shape:** rows and 15 columns.  
 - **Time Period:** The dataset covers the period from 2000 to 2021, capturing daily trading data.
-
 - **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
 
 - ### Data dictionary:
