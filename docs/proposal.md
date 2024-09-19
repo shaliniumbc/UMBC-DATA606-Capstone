@@ -65,11 +65,11 @@ The dataset used for this project was obtained from a Kaggle repository, Nifty50
 - **Series**: Typically "EQ" for equity, but other series types could be present depending on the dataset.
 
 
-### Target Variable for the ML Model:
+### Target Variable for the Time Series Analysis:
 The **Close** column will be used as the target variable for predicting stock prices.
 
-### Potential Features/Predictors for the ML Models
-The following columns from the dataset are selected as features/predictors for building a machine learning model to predict stock prices:
+### Potential Features/Predictors for Time Series Analysis:
+The following columns from the dataset are selected as features/predictors to predict stock prices:
 
 **`**VWAP (Volume Weighted Average Price)`: The average price of the stock, weighted by volume during the day.
 **`Volume`**:The number of shares traded during the day.
