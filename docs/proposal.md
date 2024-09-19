@@ -38,8 +38,11 @@ The dataset used for this project was obtained from a Kaggle repository, which c
 - **Time Period:** The dataset covers the period from 2000 to 2021, capturing daily trading data.
 
 - **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
+
+- ### Data dictionary:
+- 
 | **Column Name**         | **Data Type**        |  **Definition**                                                                     |
-|----------------------------------------|---------------|------------------------------------------------------------------------------------|
+|-------------------------|----------------------|-------------------------------------------------------------------------------------|
 | `Date`                  | DateTime             |  The date on which the stock data was recorded.                                     |
 | `Symbol`                | String(Categorical)  |  The ticker symbol of the Nifty 50 stock                                            |
 | `Open`                  | Float                |  The price at which the stock opened for trading on the day                         |
