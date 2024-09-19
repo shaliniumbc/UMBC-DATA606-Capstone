@@ -40,7 +40,7 @@ The dataset used for this project was obtained from a Kaggle repository, which c
 - **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
 
 - ### Data dictionary:
-- 
+  
 | **Column Name**         | **Data Type**        |  **Definition**                                                                     |
 |-------------------------|----------------------|-------------------------------------------------------------------------------------|
 | `Date`                  | DateTime             |  The date on which the stock data was recorded.                                     |
