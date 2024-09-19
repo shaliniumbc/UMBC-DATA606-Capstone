@@ -66,7 +66,7 @@ The dataset used for this project was obtained from a Kaggle repository, which c
 
 
 ### Target Variable for the ML Model:
-The **Close** and **Adj Close** columns will be used as the target variable for predicting stock prices.
+The **Close** column will be used as the target variable for predicting stock prices.
 
 ### Potential Features/Predictors for the ML Models
 The following columns from the dataset are selected as features/predictors for building a machine learning model to predict stock prices:
