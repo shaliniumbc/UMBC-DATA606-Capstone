@@ -33,8 +33,8 @@ Accurate stock market predictions significantly benefit investors, financial ex
 
 - **Data Sources:** 
 The dataset used for this project was obtained from a Kaggle repository, which contains daily stock price data for the Nifty 50 companies. The dataset covers a wide time span, making it ideal for analyzing stock market trends and predicting future stock prices.
-- **Data Size:** 29MB  
-- **Data Shape:**  rows and 14 columns.  
+- **Data Size:** 19MB  
+- **Data Shape:** rows and 15 columns.  
 - **Time Period:** The dataset covers the period from 2000 to 2021, capturing daily trading data.
 
 - **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
@@ -57,3 +57,20 @@ The dataset used for this project was obtained from a Kaggle repository, which c
 | `52w Low`               | Float                |  The lowest price the stock traded at in the last 52 weeks.                         |
 | `Deliverable Volume`    | Integer              |  The number of shares that were actually delivered on that day.                     |
 | `%Deliverable`          | Float                |  The percentage of the total volume that was deliverable.                           |
+
+---
+
+### **Potential Values for Categorical Variables**:
+- **Symbol**: Represents different stock symbols (e.g., ZEETELE). Each unique stock will have its symbol.
+- **Series**: Typically "EQ" for equity, but other series types could be present depending on the dataset.
+
+
+### Target Variable for the ML Model:
+The **Close** or **Adj Close** columns will be used as the target variable for predicting stock prices.
+
+
+
+
+
+
+
