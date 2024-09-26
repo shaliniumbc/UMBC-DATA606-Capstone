@@ -61,7 +61,7 @@ The dataset used for this project was obtained from Kaggle repository, Nifty50 S
 
 ### **Potential Values for Categorical Variables**:
 - **Symbol**: Represents different stock symbols (e.g., ZEETELE). Each unique stock will have its symbol.
-- **Series**: Typically "EQ" for equity, but other series types could be present depending on the dataset.
+- **Series**: Typically "EQ" for equity.
 
 
 ### Target Variable for the Time Series Analysis:
