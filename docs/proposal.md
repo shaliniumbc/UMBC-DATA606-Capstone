@@ -32,10 +32,9 @@ Accurately predicting stock market trends is a significant challenge in finance,
 ## Data
 
 - **Data Sources:** 
-The dataset used for this project was obtained from Kaggle repository, Nifty50 Stock Market Data which contains daily stock price data for the Nifty 50 companies. The dataset covers a wide time span, making it ideal for analyzing stock market trends and predicting future stock prices.
-- **Link:** https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset/data
-- **Data Size:** 19MB  
-- **Data Shape:** 2 lakh rows and 18 columns. 
+The dataset used for this project was obtained from Yahoo Finance which contains daily stock price data for the Nifty 50 companies. The dataset covers a wide time span, making it ideal for analyzing stock market trends and predicting future stock prices.
+- **Data Size:** 3MB  
+- **Data Shape:** 50153 rows and 8 columns. 
 - **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
 
 - ### Data dictionary:
@@ -50,13 +49,6 @@ The dataset used for this project was obtained from Kaggle repository, Nifty50 S
 | `Close`                 | Float                |  The stock price at the close of the trading day.                                   |
 | `Adj Close`             | Float                |  Adjusted closing price that accounts for dividends and stock splits.               |
 | `Volume`                | Integer              |  The total number of shares traded during the day.                                  |
-| `Prev Close`            | Float                |  The closing price of the stock on the previous trading day.                        |
-| `%change`               | Float                |  The percentage change in the stock's price compared to the previous trading day.   |
-| `52w High`              | Float                |  The highest price the stock traded at in the last 52 weeks.                        |
-| `52w Low`               | Float                |  The lowest price the stock traded at in the last 52 weeks.                         |
-| `Deliverable Volume`    | Integer              |  The number of shares that were actually delivered on that day.                     |
-| `%Deliverable`          | Float                |  The percentage of the total volume that was deliverable.                           |
-
 ---
 
 ### **Potential Values for Categorical Variables**:
@@ -70,21 +62,11 @@ The **Close** column will be used as the target variable for predicting stock pr
 ### Potential Features/Predictors for Time Series Analysis:
 The following columns from the dataset are selected as features/predictors to predict stock prices:
 
--**`**VWAP (Volume Weighted Average Price)`: The average price of the stock, weighted by volume during the day.
-
--**`Volume`**:The number of shares traded during the day.
-
--**`Turnover`**: The total monetary value of shares traded during the day.
-
--**`Prev Close`**: The previous day's closing price.
-
 -**`Open`**: The stock price at the opening of the trading day.
 
 -**`High`**: The highest price during the trading day.
 
 -**`Low`**: The lowest price during the trading day.
-
--**`Last`**: The last traded price before the market closes.
 
    
 
