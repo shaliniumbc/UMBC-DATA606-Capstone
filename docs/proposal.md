@@ -1,5 +1,5 @@
 # Project Title: 
-# Stock Market Predictions Using Time Series Analysis
+# Stock Market Predictions using Time Series Analysis
 
 - **Author Name:** Shalini Mopuri
 - **Semester:** Fall 2024
