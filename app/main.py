@@ -19,7 +19,7 @@ def show_predict():
 show_predict()
 
 stocks = ["AAPL"]
-
+HouseOwnership=st.selectbox("Stocks",stocks)
 
 prev=st.number_input("Enter the previous price", min_value=0.0, max_value=1000.0, value=10.0)
 day1change = st.number_input("Enter 1 day", min_value=-1000.0, max_value=1000.0, value=10.0)
