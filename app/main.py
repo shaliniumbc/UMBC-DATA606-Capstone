@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 def loading_model():
-    with open('saved_model.pkl','rb') as file:
+    with open('app/saved_model.pkl','rb') as file:
         load_model=pickle.load(file)
     return load_model
 
