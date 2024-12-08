@@ -9,7 +9,7 @@
 - **LinkedIn profile:** [linkedin.com/in/shalini-mopuri-5355182b5](https://www.linkedin.com/in/shalini-mopuri-5355182b5 )
 - **Youtube Link :** https://youtu.be/yrMQhS1Um4g?feature=shared
 - **Streamlit Link :** https://stock-price-prediction-606.streamlit.app/
-- **PPT Link :** 
+- **PPT Link :** https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/Stockmarket_Final%20PPT.pptx
 
 ---
 
