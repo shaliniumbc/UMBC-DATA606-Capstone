@@ -208,6 +208,15 @@ The correlation heatmap reveals a strong relationship between BAC's daily return
 ### ARIMA
 
 
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/arima.png)
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/plotting.png)
+
+
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/svr.png)
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/compare.png)
+
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/Streamlit.png)
+
 
 
 
