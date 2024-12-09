@@ -82,7 +82,8 @@ The following columns from the dataset are selected as features/predictors to pr
 - **`Low`**: The lowest price during the trading day.
 
 
-### Key Features of the Project
+## Key Features of the Project
+
 1. Time Series Analysis:
 
 - Applied decomposition to analyze stock price trends, seasonality, and residuals.
@@ -107,7 +108,7 @@ The following columns from the dataset are selected as features/predictors to pr
 
 - Presented intuitive charts for time series decomposition, daily returns, and moving averages.
 
-### Data Preprocessing:
+## Data Preprocessing:
 
 Data preprocessing ensures the dataset is clean, consistent, and ready for analysis. The following steps were implemented:
 
@@ -126,7 +127,7 @@ Data preprocessing ensures the dataset is clean, consistent, and ready for analy
 - **Using moving averages:** Created 20-day, 100-day, and 200-day moving averages to identify long-term trends and smooth out price fluctuations.
 These steps ensure the dataset is ready for building predictive models and extracting meaningful insights.
 
-### Exploratory Data Analysis:
+## Exploratory Data Analysis:
 
 Close Price Distribution for BAC:
 
@@ -265,19 +266,15 @@ d) Correlogram (Bottom-Right):
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/Streamlit.png)
 
 
-### CHALLENGES
+## CHALLENGES
 
-1. Unpredictable Market Factors:
-   External influences like economic events, political disruptions, or natural disasters can be highly erratic and create challenges for model 
-    accuracy in stock market prediction.
+1. Unpredictable Market Factors: External influences like economic events, political disruptions, or natural disasters can be highly erratic and create challenges for model accuracy in stock market prediction.
 
-2. Lack of Interpretability:
-Machine learning models are often opaque, making it difficult to trace their reasoning or correct biases, which can limit trust in their predictions.
+2. Lack of Interpretability: Machine learning models are often opaque, making it difficult to trace their reasoning or correct biases, which can limit trust in their predictions.
 
-3. Data Sources:
-Traditional data like financial reports may be insufficient for accurate predictions, while integrating new sources like social media can offer insights into market sentiment.
+3. Data Sources: Traditional data like financial reports may be insufficient for accurate predictions, while integrating new sources like social media can offer insights into market sentiment.
 
-### FUTURE WORK
+## FUTURE WORK
 
 1. Incorporating Additional Data sources:
 - To improve the accuracy of stock market prediction future work could involve incorporating additional data sources such as economic indicators (or) social media sentiment analysis. Additional model evaluation like conducting back testing to evalute model peeformance under diffeent market conditios & Enhancing model Robustness.
@@ -297,7 +294,7 @@ Market Anomaly Detection: Models designed for anomaly or shock detection in fina
 
 
 
-### CONCLUSION
+## CONCLUSION
 
 In conclusion, the project aimed to predict stock market trends using time series analysis and machine learning. It evaluated the performance of different machine learning models, including ARIMA, and other Machine learning models, and compared their results.
 The use of time series analysis allowed us to identify patterns and trends in the stock market data, which were then used to train machine learning models. This approach is used to develop models that could accurately predict future stock prices based on historical data.
