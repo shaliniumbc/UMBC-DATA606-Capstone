@@ -75,37 +75,37 @@ The **Close** column will be used as the target variable for predicting stock pr
 ### Potential Features/Predictors for Time Series Analysis:
 The following columns from the dataset are selected as features/predictors to predict stock prices:
 
--**`Open`**: The stock price at the opening of the trading day.
+- **`Open`**: The stock price at the opening of the trading day.
 
--**`High`**: The highest price during the trading day.
+- **`High`**: The highest price during the trading day.
 
--**`Low`**: The lowest price during the trading day.
+- **`Low`**: The lowest price during the trading day.
 
 
 ### Key Features of the Project
 1. Time Series Analysis:
 
--Applied decomposition to analyze stock price trends, seasonality, and residuals.
+- Applied decomposition to analyze stock price trends, seasonality, and residuals.
 
--Implemented ARIMA and SARIMA models for forecasting stock prices.
+- Implemented ARIMA and SARIMA models for forecasting stock prices.
 
 2. Machine Learning Models:
 
--Built and compared multiple machine learning models, including Random Forest, Decision Tree, XGBoost, and SVR.
+- Built and compared multiple machine learning models, including Random Forest, Decision Tree, XGBoost, and SVR.
 
--Evaluated models using metrics like Mean Squared Error (MSE) and R² scores.
+- Evaluated models using metrics like Mean Squared Error (MSE) and R² scores.
 
 3. Exploratory Data Analysis (EDA):
 
--Visualized the relationship between BAC's stock prices and trading volume.
+- Visualized the relationship between BAC's stock prices and trading volume.
 
--Analyzed moving averages and correlation with the S&P 500 index.
+- Analyzed moving averages and correlation with the S&P 500 index.
 
 4. Visualization:
 
--Compared predicted values with actual stock prices to evaluate model performance.
+- Compared predicted values with actual stock prices to evaluate model performance.
 
--Presented intuitive charts for time series decomposition, daily returns, and moving averages.
+- Presented intuitive charts for time series decomposition, daily returns, and moving averages.
 
 ### Data Preprocessing:
 
@@ -113,17 +113,17 @@ Data preprocessing ensures the dataset is clean, consistent, and ready for analy
 
 1. Data Cleaning:
    
--**Removing inconsistencies and errors:** Identified and corrected errors or inconsistencies in the dataset to maintain accuracy.
+- **Removing inconsistencies and errors:** Identified and corrected errors or inconsistencies in the dataset to maintain accuracy.
    
--**Standardizing data formats:** Ensured all date, price, and volume columns follow uniform formats for seamless analysis.
+- **Standardizing data formats:** Ensured all date, price, and volume columns follow uniform formats for seamless analysis.
 
--**Handling missing values and outliers:** Imputed missing values and detected outliers using statistical methods to ensure data integrity.
+- **Handling missing values and outliers:** Imputed missing values and detected outliers using statistical methods to ensure data integrity.
 
 2. Feature Engineering:
    
--**Calculating daily returns:** Computed daily returns to capture the percentage change in stock prices, which serves as an essential indicator of performance.
+- **Calculating daily returns:** Computed daily returns to capture the percentage change in stock prices, which serves as an essential indicator of performance.
 
--**Using moving averages:** Created 20-day, 100-day, and 200-day moving averages to identify long-term trends and smooth out price fluctuations.
+- **Using moving averages:** Created 20-day, 100-day, and 200-day moving averages to identify long-term trends and smooth out price fluctuations.
 These steps ensure the dataset is ready for building predictive models and extracting meaningful insights.
 
 ### Exploratory Data Analysis:
@@ -132,28 +132,28 @@ Close Price Distribution for BAC:
 
 
 
--Stock prices are mostly clustered between $10 and $30.
+- Stock prices are mostly clustered between $10 and $30.
 
 1. Close Price vs Volume:
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/close.png)
 
 
--The scatter plot highlights a negative correlation, where higher stock prices correspond to lower trading volumes.
+- The scatter plot highlights a negative correlation, where higher stock prices correspond to lower trading volumes.
 
 2. Daily Returns Over Time:
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/Daily.png)
 
 
--Daily returns exhibit high volatility during periods of market turbulence, such as the 2008 financial crisis and 2020 pandemic.
+- Daily returns exhibit high volatility during periods of market turbulence, such as the 2008 financial crisis and 2020 pandemic.
 
 3. Moving Averages:
 
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/ma.png)
 
--Demonstrated long-term stock price trends using 20-day, 100-day, and 200-day moving averages.
+- Demonstrated long-term stock price trends using 20-day, 100-day, and 200-day moving averages.
 
 
 
@@ -161,24 +161,24 @@ Close Price Distribution for BAC:
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/cor.png)
 
-The correlation heatmap reveals a strong relationship between BAC's daily returns and the S&P 500 index.
+- The correlation heatmap reveals a strong relationship between BAC's daily returns and the S&P 500 index.
 
 
 
 5. Time Series Decomposition:
 
--Time Series Decomposition are divided into three components Trend, Seasonality and Residual
+- Time Series Decomposition are divided into three components Trend, Seasonality and Residual
 
--**Trend:** The long-term movement or direction in the data over time.
+- **Trend:** The long-term movement or direction in the data over time.
 
--**Seasonality:** Regular pattern or cycle in the data that repeats over a specific period.
+- **Seasonality:** Regular pattern or cycle in the data that repeats over a specific period.
 
--**Residual:** Random variations or fluctuations in the data that cannot be attributed to trend or seasonality.
+- **Residual:** Random variations or fluctuations in the data that cannot be attributed to trend or seasonality.
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/time.png)
 
 
--Analyzed trends, seasonality, and residuals for BAC stock prices.
+- Analyzed trends, seasonality, and residuals for BAC stock prices.
 
 ## Model Training and Evaluation
 
@@ -193,7 +193,7 @@ The correlation heatmap reveals a strong relationship between BAC's daily return
 
 ### Training Methodology
 1. **Data Splitting**: Dataset was split into **80% training** and **20% testing** to have a good check on the performance of the model.
-.
+
 2. **Python Packages:**
    
  - **scikit-learn:** For model training, evaluation, and tuning.
@@ -212,48 +212,54 @@ The correlation heatmap reveals a strong relationship between BAC's daily return
 
 
 a) Standardized Residuals Plot (Top-Left):
-Shows the residuals (errors) over time.
-Residuals appear to be randomly distributed around zero.
+
+- Shows the residuals (errors) over time.
+- Residuals appear to be randomly distributed around zero.
+
 b) Histogram Plus Estimated Density (Top-Right):
-Compares the residuals to a normal distribution.
-The green curve represents a standard normal distribution (N(0,1)), while the orange curve represents the actual residual density (KDE).
+
+- Compares the residuals to a normal distribution.
+- The green curve represents a standard normal distribution (N(0,1)), while the orange curve represents the actual residual density (KDE).
 
 c) Normal Q-Q Plot (Bottom-Left):
-Compares the quantiles of residuals to a standard normal distribution.
-Points lie close to the red diagonal line, indicating that the residuals follow a normal distribution.
+
+- Compares the quantiles of residuals to a standard normal distribution.
+- Points lie close to the red diagonal line, indicating that the residuals follow a normal distribution.
+
 d) Correlogram (Bottom-Right):
-Plots the autocorrelation of residuals.
+
+- Plots the autocorrelation of residuals.
 
 ** Autocorrelation**
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/plotting.png)
 
-The autocorrelation plot shows that the current values are strongly related to past values. This means the data has patterns like trends or seasonality, which are important for building predictive models.
+- The autocorrelation plot shows that the current values are strongly related to past values. This means the data has patterns like trends or seasonality, which are important for building predictive models.
 
 **Partial Autocorrrelation**
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/partial.png)
 
 
-This partial autocorrelation graph shows strong relationships at lower lags (e.g., lag 1 and 2) and minimal influence at higher lags. It helps determine the order of the AR (Auto-Regressive) component in time series models like ARIMA.
+- This partial autocorrelation graph shows strong relationships at lower lags (e.g., lag 1 and 2) and minimal influence at higher lags. It helps determine the order of the AR (Auto-Regressive) component in time series models like ARIMA.
 
 
 ### Support Vector Regressor
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/svr.png)
 
-This graph compares the actual stock prices of Bank of America (BAC) with the predicted values generated by the Support Vector Regressor (SVR). The close alignment between the orange (predicted) and blue (actual) lines demonstrates the model's high accuracy in forecasting stock prices over time.
+- This graph compares the actual stock prices of Bank of America (BAC) with the predicted values generated by the Support Vector Regressor (SVR). The close alignment between the orange (predicted) and blue (actual) lines demonstrates the model's high accuracy in forecasting stock prices over time.
 
 ### Model Performance Table
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/compare.png)
 
-The table compares the performance of different predictive models using Mean Squared Error (MSE) and R² scores. The SVR model achieves the best performance with the lowest MSE (0.063021) and the highest R² score (0.998059), indicating its superior predictive accuracy compared to the othe r models.
+- The table compares the performance of different predictive models using Mean Squared Error (MSE) and R² scores. The SVR model achieves the best performance with the lowest MSE (0.063021) and the highest R² score (0.998059), indicating its superior predictive accuracy compared to the othe r models.
 
 
 ## STREAMLIT WEB APP
 
-I created a web app development using Streamlit to predict stock market trends using the SVR Model.
+- I created a web app development using Streamlit to predict stock market trends using the SVR Model.
 
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/Streamlit.png)
