@@ -136,12 +136,14 @@ Close Price Distribution for BAC:
 
 1. Close Price vs Volume:
 
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/close.png)
 
 
 -The scatter plot highlights a negative correlation, where higher stock prices correspond to lower trading volumes.
 
 2. Daily Returns Over Time:
 
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/Daily.png)
 
 
 -Daily returns exhibit high volatility during periods of market turbulence, such as the 2008 financial crisis and 2020 pandemic.
@@ -149,6 +151,7 @@ Close Price Distribution for BAC:
 3. Moving Averages:
 
 
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/ma.png)
 
 -Demonstrated long-term stock price trends using 20-day, 100-day, and 200-day moving averages.
 
@@ -156,12 +159,14 @@ Close Price Distribution for BAC:
 
 4. Correlation Analysis:
 
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/cor.png)
 
 The correlation heatmap reveals a strong relationship between BAC's daily returns and the S&P 500 index.
 
 
 
 5. Time Series Decomposition:
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/time.png)
 
 -Time Series Decomposition are divided into three components Trend, Seasonality and Residual
 
