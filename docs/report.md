@@ -111,7 +111,7 @@ The following columns from the dataset are selected as features/predictors to pr
 
 Data preprocessing ensures the dataset is clean, consistent, and ready for analysis. The following steps were implemented:
 
-1. Data Cleaning
+1. Data Cleaning:
    
 -**Removing inconsistencies and errors:** Identified and corrected errors or inconsistencies in the dataset to maintain accuracy.
    
@@ -119,12 +119,94 @@ Data preprocessing ensures the dataset is clean, consistent, and ready for analy
 
 -**Handling missing values and outliers:** Imputed missing values and detected outliers using statistical methods to ensure data integrity.
 
-3. Feature Engineering
+2. Feature Engineering:
    
 -**Calculating daily returns:** Computed daily returns to capture the percentage change in stock prices, which serves as an essential indicator of performance.
 
 -**Using moving averages:** Created 20-day, 100-day, and 200-day moving averages to identify long-term trends and smooth out price fluctuations.
 These steps ensure the dataset is ready for building predictive models and extracting meaningful insights.
+
+### Exploratory Data Analysis:
+
+Close Price Distribution for BAC:
+
+
+
+-Stock prices are mostly clustered between $10 and $30.
+
+1. Close Price vs Volume:
+
+
+
+-The scatter plot highlights a negative correlation, where higher stock prices correspond to lower trading volumes.
+
+2. Daily Returns Over Time:
+
+
+
+-Daily returns exhibit high volatility during periods of market turbulence, such as the 2008 financial crisis and 2020 pandemic.
+
+3. Moving Averages:
+
+
+
+-Demonstrated long-term stock price trends using 20-day, 100-day, and 200-day moving averages.
+
+
+
+4. Correlation Analysis:
+
+
+The correlation heatmap reveals a strong relationship between BAC's daily returns and the S&P 500 index.
+
+
+
+5. Time Series Decomposition:
+
+-Time Series Decomposition are divided into three components Trend, Seasonality and Residual
+
+-**Trend:** The long-term movement or direction in the data over time.
+
+-**Seasonality:** Regular pattern or cycle in the data that repeats over a specific period.
+
+-**Residual:** Random variations or fluctuations in the data that cannot be attributed to trend or seasonality.
+
+
+
+-Analyzed trends, seasonality, and residuals for BAC stock prices.
+
+## Model Training and Evaluation
+
+### Selected Models for Predictive Analytics
+1. **ARIMA**
+2. **SARIMA**
+3. **Support Vector Regressor**
+4. **Random Forest Classifier**
+5. **Decision Tree Regressor**
+6. **XGradient Boosting Classifier**
+
+
+### Training Methodology
+1. **Data Splitting**: Dataset was split into **80% training** and **20% testing** to have a good check on the performance of the model.
+.
+2. **Python Packages:**
+   
+ - **scikit-learn:** For model training, evaluation, and tuning.
+ - **pandas and NumPy:** For efficient data manipulation and preprocessing.
+ - **Matplotlib and Seaborn:** For creating insightful visualizations.
+
+3. **Development Environment:**
+   
+  - **Google Colab:** Used for computational support and running the models.
+  - **GitHub:** Used for version control and collaboration.
+
+### ARIMA
+
+
+
+
+
+
 
 
 
