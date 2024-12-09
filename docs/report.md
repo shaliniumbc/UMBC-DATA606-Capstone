@@ -16,11 +16,17 @@
 ## Background
 
 ### What is it about?
-Stock market prediction using time series analysis involves using historical stock prices and other financial indicators to forecast future stock prices. Time series analysis is crucial in understanding the temporal patterns in stock prices, trends, seasonality, and volatility. Techniques like ARIMA (Auto-Regressive Integrated Moving Average), SARIMA (Seasonal ARIMA)
+This project focuses on a set of time series analysis and machine learning models specifically, ARIMA(Auto Regressive Integrated Moving Averages), SARIMA(Seasonal Auto-Regressive Integrated Moving Average),  Random Forest, and Support Vector Regressor applied for predicting stock prices. Financial markets are quite complex and typically volatile therefore, accurate prediction about stock prices tends to be quite hard. The general objective is to create predictive models capable of forecasting future stock prices based on historical information. This project aims to determine whether or not applying advanced algorithms in machine learning can enhance the accuracy of forecasting performance to provide helpful information for investors, traders, and analysts.
+
 
 ### Why does it matter?
 
-Accurately predicting stock market trends is a significant challenge in finance, offering critical insights to investors, financial analysts, and businesses. Such predictions enable informed decisions regarding buying, selling, or holding stocks, ultimately impacting portfolio returns and market strategies. Moreover, stock price volatility has broader economic implications, influencing factors like retirement savings and corporate investments. Addressing this challenge through time series analysis can enhance decision-making and contribute to financial stability
+For investors and traders, stock price prediction is extremely important because it provides them with a sound basis for good decisions on when to buy or sell assets so that their financial strategy can be optimized while reducing risks. There is an enormous amount of data that is marketable, and because of such high dynamism and non-linearity, it remains highly challenging to predict stock prices. Traditional methods currently used can often fall through in capturing the minute complexities of market behaviour. To these ends, this project aims to use advanced predictive models such as ARIMA model,Random Forest and Support Vector Regressor, with promise established in other domains to serve as a more reliable source of prediction for stock price movements.
+
+This project is significant in terms of its potential to:
+-	Improve modern techniques in time series analysis and machine learning that are used to make accurate predictions about the stock price.
+- Improve risk management and decision-making for the financial market participants.
+-	Contribute to the still-growing field of financial analytics, and the applications of machine learning in the finance industry.
 
 
 ### Research Questions?
