@@ -81,4 +81,53 @@ The following columns from the dataset are selected as features/predictors to pr
 
 -**`Low`**: The lowest price during the trading day.
 
+
+### Key Features of the Project
+1. Time Series Analysis:
+
+-Applied decomposition to analyze stock price trends, seasonality, and residuals.
+
+-Implemented ARIMA and SARIMA models for forecasting stock prices.
+
+2. Machine Learning Models:
+
+-Built and compared multiple machine learning models, including Random Forest, Decision Tree, XGBoost, and SVR.
+
+-Evaluated models using metrics like Mean Squared Error (MSE) and R² scores.
+
+3. Exploratory Data Analysis (EDA):
+
+-Visualized the relationship between BAC's stock prices and trading volume.
+
+-Analyzed moving averages and correlation with the S&P 500 index.
+
+4. Visualization:
+
+-Compared predicted values with actual stock prices to evaluate model performance.
+
+-Presented intuitive charts for time series decomposition, daily returns, and moving averages.
+
+### Data Preprocessing:
+
+Data preprocessing ensures the dataset is clean, consistent, and ready for analysis. The following steps were implemented:
+
+1. Data Cleaning
+   
+-**Removing inconsistencies and errors:** Identified and corrected errors or inconsistencies in the dataset to maintain accuracy.
+   
+-**Standardizing data formats:** Ensured all date, price, and volume columns follow uniform formats for seamless analysis.
+
+-**Handling missing values and outliers:** Imputed missing values and detected outliers using statistical methods to ensure data integrity.
+
+3. Feature Engineering
+   
+-**Calculating daily returns:** Computed daily returns to capture the percentage change in stock prices, which serves as an essential indicator of performance.
+
+-**Using moving averages:** Created 20-day, 100-day, and 200-day moving averages to identify long-term trends and smooth out price fluctuations.
+These steps ensure the dataset is ready for building predictive models and extracting meaningful insights.
+
+
+
+
+
    
