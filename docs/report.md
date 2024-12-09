@@ -230,7 +230,13 @@ Plots the autocorrelation of residuals.
 
 The autocorrelation plot shows that the current values are strongly related to past values. This means the data has patterns like trends or seasonality, which are important for building predictive models.
 
-![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/compare.png)
+**Partial Autocorrrelation**
+
+![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/partial.png)
+
+
+This partial autocorrelation graph shows strong relationships at lower lags (e.g., lag 1 and 2) and minimal influence at higher lags. It helps determine the order of the AR (Auto-Regressive) component in time series models like ARIMA.
+
 
 ### Support Vector Regressor
 
@@ -245,10 +251,53 @@ This graph compares the actual stock prices of Bank of America (BAC) with the pr
 The table compares the performance of different predictive models using Mean Squared Error (MSE) and R² scores. The SVR model achieves the best performance with the lowest MSE (0.063021) and the highest R² score (0.998059), indicating its superior predictive accuracy compared to the othe r models.
 
 
+## STREAMLIT WEB APP
 
+I created a web app development using Streamlit to predict stock market trends using the SVR Model.
 
 
 ![image](https://github.com/shaliniumbc/UMBC-DATA606-Capstone/blob/main/docs/images/Streamlit.png)
+
+
+### CHALLENGES
+
+1. Unpredictable Market Factors:
+   External influences like economic events, political disruptions, or natural disasters can be highly erratic and create challenges for model 
+    accuracy in stock market prediction.
+
+2. Lack of Interpretability:
+Machine learning models are often opaque, making it difficult to trace their reasoning or correct biases, which can limit trust in their predictions.
+
+3. Data Sources:
+Traditional data like financial reports may be insufficient for accurate predictions, while integrating new sources like social media can offer insights into market sentiment.
+
+### FUTURE WORK
+
+1. Incorporating Additional Data sources:
+   
+To improve the accuracy of stock market prediction future work could involve incorporating additional data sources such as economic indicators (or) social media sentiment analysis. Additional model evaluation like conducting back testing to evalute model peeformance under diffeent market conditios & Enhancing model Robustness.
+
+2. More Advanced Models:
+   
+Apply more complex machine learning techniques, such as Recurrent Neural Networks, Attention, or Transformer-based models that better capture long-term dependencies within time-series data.
+
+3. Ensemble Approaches:
+   
+Training of multiple models; for instance, Random Forest, SVM, LSTM, and combining them into an ensemble approach, improving the accuracy of predictions through exploring the strengths of each individual model.
+
+4. Model Tuning:
+
+Optimization techniques such as grid search or random search are used on models to fine-tune them so that predictability is enhanced.
+Market Anomaly Detection: Models designed for anomaly or shock detection in financial markets would be useful for predicting the movement of markets, such as crashes or surges. This would then be used to design better risk management strategies.
+
+
+
+### CONCLUSION
+
+In conclusion, the project aimed to predict stock market trends using time series analysis and machine learning. It evaluated the performance of different machine learning models, including ARIMA, and other Machine learning models, and compared their results.
+The use of time series analysis allowed us to identify patterns and trends in the stock market data, which were then used to train machine learning models. This approach is used to develop models that could accurately predict future stock prices based on historical data.
+
+
 
 
 
