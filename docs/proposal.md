@@ -33,9 +33,9 @@ Accurately predicting stock market trends is a significant challenge in finance,
 
 - **Data Sources:** 
 The dataset used for this project was obtained from Yahoo Finance which contains daily stock price data for the Bank of America Corp stock. The dataset covers a wide time span, making it ideal for analyzing stock market trends and predicting future stock prices.
-- **Data Size:** 3MB  
+- **Data Size:** 2MB  
 - **Data Shape:** 5033 rows and 8 columns. 
-- **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
+- **Each Row Represents** Each row represents the daily trading activity for Bank of America stock, detailing price movements and trading volumes for that particular day.
 
 - ### Data dictionary:
   
