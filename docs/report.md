@@ -277,19 +277,20 @@ d) Correlogram (Bottom-Right):
 ## FUTURE WORK
 
 1. Incorporating Additional Data sources:
-- To improve the accuracy of stock market prediction future work could involve incorporating additional data sources such as economic indicators (or) social media sentiment analysis. Additional model evaluation like conducting back testing to evalute model peeformance under diffeent market conditios & Enhancing model Robustness.
-
-3. More Advanced Models:
    
-- Apply more complex machine learning techniques, such as Recurrent Neural Networks, Attention, or Transformer-based models that better capture long-term dependencies within time-series data.
+ To improve the accuracy of stock market prediction future work could involve incorporating additional data sources such as economic indicators (or) social media sentiment analysis. Additional model evaluation like conducting back testing to evalute model peeformance under diffeent market conditios & Enhancing model Robustness.
+
+2. More Advanced Models:
+   
+ Apply more complex machine learning techniques, such as Recurrent Neural Networks, Attention, or Transformer-based models that better capture long-term dependencies within time-series data.
 
 3. Ensemble Approaches:
    
-- Training of multiple models; for instance, Random Forest, SVM, LSTM, and combining them into an ensemble approach, improving the accuracy of predictions through exploring the strengths of each individual model.
+Training of multiple models; for instance, Random Forest, SVM, LSTM, and combining them into an ensemble approach, improving the accuracy of predictions through exploring the strengths of each individual model.
 
 4. Model Tuning:
 
-- Optimization techniques such as grid search or random search are used on models to fine-tune them so that predictability is enhanced.
+ Optimization techniques such as grid search or random search are used on models to fine-tune them so that predictability is enhanced.
 Market Anomaly Detection: Models designed for anomaly or shock detection in financial markets would be useful for predicting the movement of markets, such as crashes or surges. This would then be used to design better risk management strategies.
 
 
