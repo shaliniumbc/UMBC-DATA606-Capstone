@@ -43,9 +43,12 @@ This project is significant in terms of its potential to:
 
 - **Data Sources:** 
 The dataset used for this project was obtained from Yahoo Finance which contains daily stock price data for the Bank of America Corp stock. The dataset covers a wide time span, making it ideal for analyzing stock market trends and predicting future stock prices.
-- **Data Size:** 3MB  
-- **Data Shape:** 5033 rows and 8 columns. 
-- **Each Row Represents** Each row represents the daily trading activity for one of the Nifty 50 stocks, detailing price movements and trading volumes for that particular day.
+- **Data Size:** 2MB
+- **Data Shape:**
+- Number of Rows: There are approximately 5033 rows (number of observations for all the symbols).
+- Number of Columns: For every stock, the dataset includes six columns- one column for the symbol and others for time-bound price metrics opening 
+  price, closing price, adjacent closing price, high, low, and volume.
+- **Each Row Represents:** Each row represents the daily trading activity for one of BAC stock detailing price movements and trading volumes for that particular day.
 
 - ### Data dictionary:
   
